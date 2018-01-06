@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title> Sport Freaks </title>
+  {{ css('app') }}
+  {{ css('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')}}
+
+  {{ script('js/jquery.min.js')}}
+  {{ script('js/bootstrap.min.js')}}
+  {{-- {{ script('https://unpkg.com/sweetalert/dist/sweetalert.min.js')}} --}}
+
+  <style>
+    body {
+      background: #EEE;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/feed">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" width="40" height="40" class="img-circle" style="position: relative;top: -10px;" align="left"> &nbsp; Sportfreak
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="ti-search"></i></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <i class="ti-user"></i> Sportfreak social <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<div class="sportfreak__football__menu">
+  <div class="container">
+    <a href="#">Home</a> &nbsp;
+    <a href="#">Sports </a> &nbsp;
+    <a href="#">Score Centre </a> &nbsp;
+    <a href="#">Video </a> &nbsp;
+    <a href="#"></a>
+  </div>
+</div>
+
+   <div class="container">
+    <div class="row">
+     <div class="col-md-8">
+      <img src="https://images.performgroup.com/di/library/omnisport/b9/a7/cristiano-ronaldo-cropped_93r9qx3cy1dc1m7ielhr60v2t.jpg?t=-1064824776&quality=90&h=450 480"  class="img-thumbnail" alt="Slider "/>
+     </div>
+     <div class="col-md-4 sportfreak__football__poll">
+       <div class="breaking-new">
+         <b><i class="ti-light-bulb"></i> Notification </b>
+         <p><a href="#"><strong>Azeez Abiodun S.</strong> comment on today's match</a></p>
+         <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+       </div>
+       <div class="first">
+          <h3> Opinion Poll</h3>
+          <hr>
+          <h5>who will be the best player of the year ? </h5>
+          <p> <input type="radio" name="best"/> Merci </p>
+          <p> <input type="radio" name="best" /> Ronaldo </p>
+          <p> <input type="radio" name="best" /> Rooney </p>
+          <p></p>
+          <button class="btn btn-danger" name="button">Submit </button>
+       </div>
+     </div>
+    </div>
+    <div class="well sport__social">
+      <h3>breaking news </h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="row sport__thumbnail">
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e1.365dm.com/18/01/768x432/skysports-cenk-tosun-everton-football_4198860.jpg?20180105093243);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>Tosun to complete Everton deal</h3>
+          <p>football</p>
+          <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e2.365dm.com/17/11/768x432/skysports-rafael-benitez-newcastle_4146108.jpg?20171103142933);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>FA Cup build-up LIVE!</h3>
+          <p>football</p>
+           <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e0.365dm.com/18/01/768x432/skysports-crane-mason-england_4198741.jpg?20180105105611);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>'Crane is a star in the making'</h3>
+          <p>cricket</p>
+           <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <!--<div class="col-md-2">.col-md-3 .col-md-offset-3</div>-->
+    </div>
+    <br>
+    <div class="row sport__thumbnail">
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e1.365dm.com/18/01/768x432/skysports-cenk-tosun-everton-football_4198860.jpg?20180105093243);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>Tosun to complete Everton deal</h3>
+          <p>football</p>
+          <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e2.365dm.com/17/11/768x432/skysports-rafael-benitez-newcastle_4146108.jpg?20171103142933);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>FA Cup build-up LIVE!</h3>
+          <p>football</p>
+           <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12 col-md-offset-5">
+        <div class="" style="background: url(http://e0.365dm.com/18/01/768x432/skysports-crane-mason-england_4198741.jpg?20180105105611);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+        </div>
+        <div class="sport__thumbnail__title">
+          <h3>'Crane is a star in the making'</h3>
+          <p>cricket</p>
+           <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+        </div>
+      </div>
+      <!--<div class="col-md-2">.col-md-3 .col-md-offset-3</div>-->
+    </div>
+    <br>
+
+    <div class="sport__ad">
+      <h3>Ad post here</h3>
+    </div>
+   </div>
+
+   <br>
+   <div class="sport__fan">
+     <div class="container">
+       <h1>Sportfreak Trends </h1>
+       <div class="row">
+         <div class="col-md-3">
+           <div class="" style="background: url(http://e0.365dm.com/18/01/768x432/skysports-crane-mason-england_4198741.jpg?20180105105611);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+           </div>
+           <div class="sport__thumbnail__title">
+             <h4>Azeez Abiodun</h4>
+             <p>just created a group called 'Arsenal fan'</p>
+              <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+           </div>
+         </div>
+         <div class="col-md-3">
+           <div class="" style="background: url(https://avatars.io/twitter/unicodeveloper);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+           </div>
+           <div class="sport__thumbnail__title">
+             <h4>Ayorinde Omotolani </h4>
+             <p>just comment on Azeez Abiodun's group</p>
+              <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+           </div>
+         </div>
+         <div class="col-md-3">
+           <div class="" style="background: url(https://avatars.io/twitter/moluwole);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+           </div>
+           <div class="sport__thumbnail__title">
+             <h4>Majiyagbe Oluwole </h4>
+             <p>just comment on Azeez Abiodun's group</p>
+              <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+           </div>
+         </div>
+         <div class="col-md-3">
+           <div class="" style="background: url(https://avatars.io/twitter/habbeboy);height: 200px;background-size:cover;background-position: center;padding-top: 0px;">
+           </div>
+           <div class="sport__thumbnail__title">
+             <h4>Ayorinde Omotolani </h4>
+             <p>just comment on Azeez Abiodun's group</p>
+              <p><a href="#"><i class="fa fa-thumbs-up"></i> 3 </a> &nbsp; <a href="#"><i class="fa fa-thumbs-down"></i> 0 </a> &nbsp; <a href="#"><i class="ti-comments"></i> 2 </a></p>
+           </div>
+         </div>
+       </div>
+       <p></p>
+       <p></p>
+       <br>
+      <p>
+        <a href="#" class="btn btn-danger btn-lg btn-custom"> Join Us Here </a>
+      </p>
+     </div>
+   </div>
+   <div class="sport__baseline__footer">
+
+     <p>&copy; copyright. 2018. sportfreaks </p>
+
+   </div>
+
+
+   <script src="/js/freaks.js" charset="utf-8"></script>
+
+</body>
+</html>

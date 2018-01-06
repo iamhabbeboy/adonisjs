@@ -1,0 +1,250 @@
+$bootstrap-sass-asset-helper: true;
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import "partials/fonts";
+@import "partials/colors";
+@import "partials/responsive";
+
+body {
+  font-family: 'Helvetica-Neue-Regular';
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.dropdown-menu-link {
+  a {
+    color: $custom;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.well {
+  background-color: $white;
+  border: 0px solid transparent;
+  border-radius: 4px;
+}
+
+.user-profile {
+  text-align: center;
+  margin: auto;
+  padding: 0px !important;
+  h3 {
+    margin-top: 40px;
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.profile-jersey {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: rgba($grey, 0.5) url('/9295344.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.image-profile {
+  position: absolute;
+  top: 85px;
+  left: 100px;
+  margin: auto;
+}
+
+.nav-shortcut {
+  padding: 0px !important;
+}
+
+.nav-link {
+  margin: 0px;
+  padding: 0px;
+  .first {
+    color: rgba($label-header, 0.6);
+    font-size: 12px !important;
+    text-transform: uppercase;
+    font-family: 'Helvetica-Neue-Medium';
+    padding: 10px;
+  }
+  li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    a {
+      display: block;
+      padding: 10px;
+      color: $custom;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        background-color: rgba($label-header, 0.1);
+        text-decoration: none;
+        border-bottom: 1px solid rgba($label-header, 0.15);
+      }
+    }
+  }
+}
+
+
+.navbar-default {
+  // background-color: #00CC99;
+  //background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //border-bottom: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $white;
+  &:hover {
+    color: $grey;
+  }
+}
+
+.sportfreak__football__menu {
+  background-color: $white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px $grey;
+  .container {
+    a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: $red;
+      display: inline-block;
+      transition: .3s all;
+      &:hover {
+        background-color: $grey;
+        color: $black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.sportfreak__football__poll {
+  .first {
+    background-color: $white;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    h4 {
+      color: $custom;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+
+  .breaking-new {
+    padding: 10px;
+    background-color: $black;
+    margin-bottom: 15px;
+
+    b {
+      text-transform: uppercase;
+      color: $yellow;
+    }
+    p {
+      font-size: 1.4rem;
+      color: $white;
+      padding-top: 5px;
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+.sport__thumbnail {
+  margin-top: 30px;
+  .col-md-3 {
+    background-color: $white;
+    margin: 5px;
+    padding: 0px !important;
+    width: 32% !important;
+    .sport__thumbnail__title {
+      padding: 10px;
+      h3 {
+        font-family: 'Helvetica-Neue-Light';
+      }
+      p {
+        letter-spacing: .3em;
+        color: $custom;
+        text-transform: capitalize;
+        a {
+          letter-spacing: .0em;
+          color: rgba($red, 0.8);
+        }
+      }
+    }
+  }
+  // background-image: radial-gradient(hsla(0,0%,100%,.8) 15%,hsla(0,0%,100%,.15) 38%,hsla(0,0%,100%,0) 50%),radial-gradient(hsla(0,0%,100%,.8) 15%,hsla(0,0%,100%,.15) 38%,hsla(0,0%,100%,0) 50%),radial-gradient(hsla(0,0%,100%,.8) 15%,hsla(0,0%,100%,.35) 35%,hsla(0,0%,100%,.15) 40%,hsla(0,0%,100%,0) 50%),radial-gradient(hsla(0,0%,100%,.8) 15%,hsla(0,0%,100%,.35) 35%,hsla(0,0%,100%,.15) 40%,hsla(0,0%,100%,0) 50%)
+}
+
+.sport__social {
+  background-color: $yellow;
+  color: $black;
+  h3 {
+    font-family: 'Helvetica-Neue-Medium';
+    text-transform: uppercase;
+  }
+}
+
+
+.sport__baseline__footer {
+  border-top: 1px solid $grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: $black;
+  color: $custom;
+}
+
+
+.sport__fan {
+  background: linear-gradient(rgba($blue, 0.7), rgba($blue, 0.7)), url('/football/4.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  h1 {
+    font-family: 'Helvetica-Neue-Light';
+    text-transform: capitalize;
+    color: $white;
+    padding-bottom: 10px;
+  }
+  .col-md-3 {
+    background-color: $white;
+    padding: 0px;
+  }
+}
+
+.sport__ad {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: $grey;
+  text-align: center;
+  h3 {
+    font-family: 'Helvetica-Neue-Light';
+  }
+}
+
+.btn-custom {
+  border: 2px solid $white !important;
+  color: $white;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+}
